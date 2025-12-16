@@ -8,6 +8,7 @@ from tensorflow.keras import layers, models, callbacks
 from tensorflow.keras.utils import to_categorical
 import pandas as pd
 from datetime import datetime
+# source ~/Desktop/UT/data\ mining/期末/testenv/bin/activate
 
 # 設定中文字型
 plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei', 'SimHei', 'Arial Unicode MS']
@@ -174,7 +175,7 @@ class MNISTCNNTrainer:
         
         print("✓ 模型編譯完成")
     
-    def train(self, epochs=20, batch_size=128, use_callbacks=True):
+    def train(self, epochs=20, batch_size=64, use_callbacks=True):
         """
         訓練模型
         
@@ -449,7 +450,7 @@ if __name__ == "__main__":
     # 5. 訓練模型
     history = trainer.train(
         epochs=20,
-        batch_size=128,
+        batch_size=64,
         use_callbacks=True
     )
     
