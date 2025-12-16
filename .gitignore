@@ -2,3 +2,6 @@
 *.csv
 *.npy
 *.npy
+
+# Ignore large arrays
+*.npy
