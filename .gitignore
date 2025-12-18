@@ -5,3 +5,9 @@
 
 # Ignore large arrays
 *.npy
+
+*.keras
+*.h5
+*.ckpt
+*.pt
+*.pth

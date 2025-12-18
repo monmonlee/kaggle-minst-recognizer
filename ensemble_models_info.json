@@ -1,0 +1,72 @@
+[
+  {
+    "model_id": 1,
+    "model_name": "MNIST_Ensemble_Model_1",
+    "model_path": "MNIST_Ensemble_Model_1_final.keras",
+    "val_accuracy": 0.9961904883384705,
+    "config": {
+      "model_id": 1,
+      "random_seed": 42,
+      "architecture": "standard",
+      "augmentation": "standard",
+      "learning_rate": 0.001,
+      "batch_size": 64
+    }
+  },
+  {
+    "model_id": 2,
+    "model_name": "MNIST_Ensemble_Model_2",
+    "model_path": "MNIST_Ensemble_Model_2_final.keras",
+    "val_accuracy": 0.9954761862754822,
+    "config": {
+      "model_id": 2,
+      "random_seed": 123,
+      "architecture": "wide",
+      "augmentation": "standard",
+      "learning_rate": 0.001,
+      "batch_size": 64
+    }
+  },
+  {
+    "model_id": 3,
+    "model_name": "MNIST_Ensemble_Model_3",
+    "model_path": "MNIST_Ensemble_Model_3_final.keras",
+    "val_accuracy": 0.9967857003211975,
+    "config": {
+      "model_id": 3,
+      "random_seed": 456,
+      "architecture": "deep",
+      "augmentation": "mild",
+      "learning_rate": 0.001,
+      "batch_size": 64
+    }
+  },
+  {
+    "model_id": 4,
+    "model_name": "MNIST_Ensemble_Model_4",
+    "model_path": "MNIST_Ensemble_Model_4_final.keras",
+    "val_accuracy": 0.9942857027053833,
+    "config": {
+      "model_id": 4,
+      "random_seed": 789,
+      "architecture": "standard",
+      "augmentation": "aggressive",
+      "learning_rate": 0.0008,
+      "batch_size": 64
+    }
+  },
+  {
+    "model_id": 5,
+    "model_name": "MNIST_Ensemble_Model_5",
+    "model_path": "MNIST_Ensemble_Model_5_final.keras",
+    "val_accuracy": 0.9961904883384705,
+    "config": {
+      "model_id": 5,
+      "random_seed": 999,
+      "architecture": "wide",
+      "augmentation": "standard",
+      "learning_rate": 0.0012,
+      "batch_size": 48
+    }
+  }
+]
